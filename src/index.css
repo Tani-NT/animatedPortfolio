@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: font1;
+  src: url(./assets/fonts/madefor-text.var.original.woff2)
+}
+@font-face{
+  font-family: font2;
+  src: url(./assets/fonts/file.woff2);
+}
+@font-face{
+  font-family: font3;
+  src: url(./assets/fonts/file2.woff2);
+}
+@font-face{
+  font-family: font4;
+  src: url(./assets/fonts/file3.woff2);
+}
+@font-face{
+  font-family: font5;
+  src: url(./assets/fonts/file4.woff2);
+}
+@font-face{
+  font-family: font6;
+  src: url(./assets/fonts/file5.woff2);
+}
+@font-face{
+  font-family: font7;
+  src: url(./assets/fonts/file6.woff2);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: white
+}
+#page1Tilt{
+  position: relative;
+  perspective: 1500px;
+}
+#tilt{
+  width: fit-content;
+}
+#page2{
+  position: relative;
+  perspective: 3000px;
+}
