@@ -49,3 +49,6 @@ body{
   position: relative;
   perspective: 3000px;
 }
+*::-webkit-scrollbar{
+  display: none
+}
